@@ -1,28 +1,28 @@
 class Sloc < Formula
-  desc "Count code, comment and blank lines across 66 languages"
+  desc "Count code, comment and blank lines across 78 languages"
   homepage "https://github.com/coldhighsun/Sloc"
-  version "4.2.0"
+  version "4.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/coldhighsun/Sloc/releases/download/v#{version}/sloc-#{version}-osx-arm64.zip"
-      sha256 "24871fdf30e41721ca2333eb2a8de1a464ba83de0a40e963d18a61e1159af379"
+      sha256 "8263fc7426bcda4cf79a82d38c3b453ad698dc4ecd5def069c49c5f38f25eba1"
     end
     on_intel do
       url "https://github.com/coldhighsun/Sloc/releases/download/v#{version}/sloc-#{version}-osx-x64.zip"
-      sha256 "a09521aeb5df670786144b275b40f65dd118ca798b08b0a93d1e0c033cd91df5"
+      sha256 "01dca0f672f9bdc06f22b52760a649742cd981d0b76f939d54d674a1da073ab4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/coldhighsun/Sloc/releases/download/v#{version}/sloc-#{version}-linux-arm64.zip"
-      sha256 "e952ed18b27ffec297a1cc7f970926833e5cf3f3a710f39dbd1b04782f7ee447"
+      sha256 "59095ac6878ac11dec5258e0a155e6f5c787697fd8c071f63a669d5946c11c35"
     end
     on_intel do
       url "https://github.com/coldhighsun/Sloc/releases/download/v#{version}/sloc-#{version}-linux-x64.zip"
-      sha256 "dedd49b5582ad3e9f479a6c6aba5b761f238185507c69a62e942c3200c8b058d"
+      sha256 "209feb37131186fec87de3343b94720d941fff7214500fc7bb1cd48cee088ca2"
     end
   end
 

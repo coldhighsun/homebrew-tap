@@ -1,6 +1,6 @@
 cask "fluxtick" do
-  version "0.4.0"
-  sha256 "e6c84385c7178efb625602916a0048420d75dc83fd67c2ead1446b034ae94873"
+  version "0.5.0"
+  sha256 "809d9c512be896144abe37f1643318a2d84c6e6d657b0cb1c274c552506d0320"
 
   url "https://github.com/coldhighsun/FluxTick/releases/download/v#{version}/FluxTick-v#{version}-osx-arm64.dmg"
   name "FluxTick"
